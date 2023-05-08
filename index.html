@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=firefox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeras Lineas con JS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./js/scripts.js"></script> -->
+    <script src="./jquery/jquery-3.6.4.min.js"></script> 
+     <script>
+        /*esta funcion realiza una transicion de la seccion que esta especificando, es decir, la que se especifica
+        en la primera parte de la funcion que va entre comillas */ 
+        $ (function (){
+            //hide: tipo de efecto,  en este caso transición. fadeIn: tiempo de la transicion en milisegundos
+            $("body").hide().fadeIn(2000);
+        });
+    </script>  
+    
+    <script>
+        //alert("Esta alerta está en el head del documento");
+        //document.write("Esta linea JavaScript está ubicado en el head del documento después de la liena del archivo externo JavaScript");
+    </script>
+</head>
+<body>
+    <div class="etiquetas">
+        <h1>Esta linea es un h1 comun</h1> 
+        <h2>esta linea es un h2 comun</h2> 
+        <p>
+            <script>
+                document.write("Esta es una linea con código JavaScript dentro de una etiqueta p");
+            </script>
+        </p>
+        <img src="./img/tree-736885_1280.jpg" alt="imagen pagina">        
+    </div>
+    
+    <script>
+        //alert("Esta alerta está en el body del documento");
+        //document.write("Esta linea JavaScript está ubicada en el body del documento");
+    </script>  
+</body>
+<br>
+<br>
+    <script>
+        //alert("Esta alerta está en el body del documento");
+        //document.write("Esta linea JavaScript está ubicada fuera del body de documento");
+    </script> 
+</html>

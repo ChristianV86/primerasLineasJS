@@ -1,0 +1,36 @@
+body {
+    background-color: #eeeeee;    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.etiquetas {
+    width: 800px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 10px;
+    border: 20px;
+}
+
+.etiquetas h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f70b0b;
+    
+}
+
+.etiquetas h2 {
+
+}
+
+.etiquetas p {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}

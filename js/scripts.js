@@ -1,0 +1,1 @@
+//document.write("Esta linea JavaScript está ubicada en un archivo externo con extención .js");
